@@ -4,7 +4,12 @@ body, html {
   font-family: arial, sans-serif;
 }
 
+head{
+  font-size: 50px;
+  text-align:center;
+}
 .nav{
+  list-style-type: none;
   overflow: hidden;
   font-size: 50px;
 }
