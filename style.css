@@ -4,17 +4,10 @@ body, html {
   font-family: arial, sans-serif;
 }
 
-.bgimg {
-  background-position: center;
-  background-size: cover;
-  background-image: =;
-  min-height: 75%;
+.nav{
+  overflow: hidden;
+  font-size: 50px;
 }
-
-.menu {
-  display: none;
-}
-header{
-font-size: 20px;
-
+.navtab{
+  float:left;
 }
