@@ -3,3 +3,8 @@ body, html {
   height: 100%;
   font-family: arial, sans-serif;
 }
+.navitem{
+  display: inline-block;
+  padding: 30px;
+  background-color:#D3D3D3;
+}
