@@ -8,12 +8,3 @@ body, html {
   font-size: 50px;
   text-align: center;
 }
-.nav{
-  list-style-type: none;
-  overflow: hidden;
-  font-size: 15px;
-
-}
-.navtab{
-  float: left;
-}
