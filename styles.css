@@ -6,12 +6,12 @@ body, html {
 
 .title{
   font-size: 50px;
-  text-align:center;
+  text-align: center;
 }
 .nav{
   list-style-type: none;
   overflow: hidden;
-  font-size: 15px;
+  font-size: 1px;
   padding: 10px;
 }
 .navtab{
