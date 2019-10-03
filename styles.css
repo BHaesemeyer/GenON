@@ -3,6 +3,11 @@ body, html {
   height: 100%;
   font-family: arial, sans-serif;
 }
+/* Anchors */
+#About{}
+#GetStarted{}
+#Donate{}
+
 .wrap1{
   display: flex;
   flex-direction: column;
