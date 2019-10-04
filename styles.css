@@ -14,14 +14,11 @@ body, html {
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
-  padding: 0px;
-  font-size: 20px;
+
 }
 .structureCol{
-  flex-basis: fit-content;
-  font-size: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  flex-basis: auto;
+  padding: 0px 10px 0px 10px;
 }
 .navmenu{
   display: flex;
@@ -33,7 +30,7 @@ body, html {
   background-color:#D3D3D3;
 }
 .navitem{
-  flex-basis: fit-content;
+  flex-basis: auto;
   padding: 11px 40px 11px 40px;
   font-size: 25px;
 }
@@ -164,3 +161,16 @@ img {vertical-align: middle;}
   width:250px;
   Height:250px;
 }
+.icons{
+  display: inline-block;
+}
+.fa{
+  padding: 20px;
+  font-size: 60px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa-facebook,.fa-twitter, .fa-pinterest{
+  color: #5f0f67;}
