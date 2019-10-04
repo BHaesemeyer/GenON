@@ -13,8 +13,9 @@ body, html {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: baseline;
+  align-items: flex-start;
   padding: 0px;
+  font-size: 20px;
 }
 .structureCol{
   flex-basis: fit-content;
@@ -39,15 +40,8 @@ body, html {
 .navitem:hover {
   background-color:#8dc740;
 }
-p.contain1{
-  font-size: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0px;
-  width: 100%;
-}
-/* this is css for the slide show below here */
 
+/* this is css for the slide show below here */
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
