@@ -24,14 +24,13 @@ body, html {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: baseline;
+  justify-content: flex-start;
+  align-items: flex-end;
   padding: 0px;
 }
 .navitem{
   flex-basis: auto;
-  padding: 11px 40px 11px 40px;
-  font-size: 25px;
+  padding: 10px 40px 10px 40px;
 }
 .navitem:hover {
   background-color:#8dc740;
@@ -45,7 +44,7 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 500px;
+  width: 50%;
   position: relative;
   margin: auto;
 }
