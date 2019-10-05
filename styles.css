@@ -17,7 +17,6 @@ body, html {
 
 }
 .structureCol{
-  flex-basis: auto;
   padding: 0px 10px 0px 10px;
 }
 .navmenu{
